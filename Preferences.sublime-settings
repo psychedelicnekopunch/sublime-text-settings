@@ -1,0 +1,67 @@
+{
+	// フォントサイズ
+	"font_size": 10,
+
+	// タブサイズ
+	"tab_size": 4,
+
+	// タブをスペースにするかどうか
+	"translate_tabs_to_spaces": false,
+
+	// タブ、スペースの表示
+	//
+	// 下記、組み合わせ自由
+	//
+	// - "selection": Draw white space under the current selection.
+	// - "leading": Draw any white space between the beginning of a line and the
+	//              first character.
+	// - "enclosed": Draw white space enclosed by other characters.
+	// - "trailing": Draw white space following the last character on a line.
+	// - "isolated": Draw white space on lines containing no other characters.
+	// - "all": All of the above, ie. always draw white space.
+	//
+	// These options may be further refined by appending any of the following
+	// separated by an underscore:
+	// - "none": Don't draw this kind of white space.
+	// - "tabs": Only draw tabs here.
+	// - "spaces": Only draw spaces here.
+	// - "mixed": Only draw white space that does not match the indentation
+	//            style. For example if "translate_tabs_to_spaces" is true only
+	//            draw tabs.
+	// - "mixed_tabs": Like "mixed" but only draw tabs.
+	// - "mixed_spaces": Like "mixed" but only draw spaces.
+	// - "all": Draw both tabs and spaces. This is the default.
+	//
+	"draw_white_space": ["all"],
+
+	// 文字の折り返し
+	//
+	// - true: 折り返す
+	// - false: 折り返さない
+	// - "auto": ファイルによって折り返すか折り返さないか決めるらしい
+	//
+	"word_wrap": true,
+
+	// 選択した文字が他にあればハイライトするかどうか
+	"match_selection": true,
+
+	// 行の上部の余白。単位はピクセル
+	"line_padding_top": 0,
+
+	// 行の下部の余白。単位はピクセル
+	"line_padding_bottom": 1,
+
+	// デフォルトのエンコーディング
+	"default_encoding": "UTF-8",
+
+	// 保存時に行末のスペースを削除するかどうか
+	//
+	// - "none"
+	// - "all"
+	// - "not_on_caret"
+	//
+	"trim_trailing_white_space_on_save": "all",
+
+	// 保存時に最終行に改行を追加するかどうか
+	"ensure_newline_at_eof_on_save": true
+}
