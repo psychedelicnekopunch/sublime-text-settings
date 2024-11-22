@@ -17,7 +17,24 @@ Users/[username]/Library/Application Support/Sublime Text/Packages/User/Preferen
 * option + ⌘ + 5: 1ウインドウに対して画面を 2 × 2 分割する
 
 
-## Package Control インストール
+## Command Palette...
+
+* 「⌘ + Shift + p」でコマンドパレットを開く
+
+### Command Palette でできること
+
+* シンタックスハイライトの選択 (言語名を入力すると「Set Syntax: xxxxx」と出てくる)
+* 変換（範囲を選択してからコマンドパレットを開き、「convert」まで入力すると変換項目が出てくる）
+	* ex) Convert Case: Lower Case
+	* ex) Convert Case: Upper Case
+	* ex) Convert Case: snake_case
+	* ex) Indentation Convert to Spaces
+	* ex) Indentation Convert to Tabs
+* Package Control
+	* パッケージをインストールして拡張できる
+
+
+## Package Control のインストール
 
 * 「⌘ + Shift + p」→「Install Package Control」選択
 
