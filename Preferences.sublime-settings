@@ -71,6 +71,8 @@
 	"theme": "auto",
 	"index_files": true,
 
+	// 複数ファイルを開く時、新しいウィンドウで開くかタブで展開するか
+	//
 	// When files are opened from a file explorer or from the command line, this
 	// controls whether a new window is created or not.
 	// - "never": Never open a new window unless no window is open.
